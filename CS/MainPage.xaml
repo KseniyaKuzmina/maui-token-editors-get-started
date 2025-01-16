@@ -4,6 +4,7 @@
              xmlns:ios="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific;assembly=Microsoft.Maui.Controls"
              xmlns:local="clr-namespace:TokenEdits_GetStarted"
              xmlns:g="clr-namespace:Microsoft.Maui.Graphics;assembly=Microsoft.Maui"
+             ios:Page.UseSafeArea="true"
              x:Class="TokenEdits_GetStarted.MainPage">
     <ScrollView>
         <dx:DXStackLayout Orientation="Vertical" ItemSpacing="25" Padding="30,0" VerticalOptions="Start">
